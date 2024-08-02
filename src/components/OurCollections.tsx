@@ -3,7 +3,7 @@
 export const OurCollections = () => {
     return (
         <div className="p-4 ">
-            <h1 className="text-center pb-4"> Our Collections</h1>
+            <h1 className="text-center pb-4 pt-4 fs-1 fw-bolder"> Our Collections</h1>
             <div className="d-flex align-content-start  justify-content-center flex-wrap  mt-4" >
                 <a href="sofa-sets " className=" d-flex justify-content-center align-items-center flex-column  text-black text-decoration-none" >
                     <img style={{ width: "70%", height: "auto" }} src="https://www.woodenstreet.com/images/home-new1/icon1.jpg" data-src="	https://www.woodenstreet.com/images/home-new1/icon1.jpg" alt="Wooden Sofa Set Furniture" title="Sofa set online" width="100%" height="100%" data-was-processed="true" />

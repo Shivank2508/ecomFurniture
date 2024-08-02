@@ -2,13 +2,14 @@
 import { Carousel } from 'react-bootstrap'
 
 export default function Slider() {
+    const visibleheight = (window.innerHeight - 90)
     return (
         <Carousel>
             <Carousel.Item interval={1000}>
                 <img
                     className="d-block w-100"
-                    style={{ height: "700px", objectFit: "cover" }}
-                    src="https://images4.alphacoders.com/260/260758.jpg"
+                    style={{ height: `${visibleheight}px`, objectFit: "cover" }}
+                    src="https://images4.alphacoders.com/760/thumb-1920-760846.jpg"
                     alt="First slide"
                 />
                 <Carousel.Caption>
@@ -19,8 +20,8 @@ export default function Slider() {
             <Carousel.Item interval={1000}>
                 <img
                     className="d-block w-100"
-                    style={{ height: "700px", objectFit: "cover" }}
-                    src="https://c4.wallpaperflare.com/wallpaper/348/947/720/sofa-lamp-shelves-wallpaper-preview.jpg"
+                    style={{ height: `${visibleheight}px`, objectFit: "cover" }}
+                    src="https://static.vecteezy.com/system/resources/previews/032/309/521/large_2x/modern-living-room-with-sofa-and-furniture-ai-generated-free-photo.jpg"
                     alt="Second slide"
                 />
                 <Carousel.Caption>
@@ -31,8 +32,8 @@ export default function Slider() {
             <Carousel.Item interval={1000}>
                 <img
                     className="d-block w-100"
-                    style={{ height: "700px", objectFit: "cover" }}
-                    src="https://c4.wallpaperflare.com/wallpaper/297/717/246/5bd1c5ae6d201-wallpaper-preview.jpg"
+                    style={{ height: `${visibleheight}px`, objectFit: "cover" }}
+                    src="https://www.home-designing.com/wp-content/uploads/2018/10/neutral-wallpaper-accent-wallin-luxury-master-bedroom-with-white-couch-and-accent-chairs.jpg"
                     alt="Third slide"
                 />
                 <Carousel.Caption>
